@@ -1,0 +1,12 @@
+.App {
+  min-height: 100vh;
+}
+
+.hide-scrollbar {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
